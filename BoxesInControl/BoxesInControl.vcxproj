@@ -123,8 +123,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="add_id_for_box.cpp" />
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="OtherTry.cpp" />
+    <ClCompile Include="StarTask.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

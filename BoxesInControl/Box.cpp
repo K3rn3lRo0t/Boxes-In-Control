@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 #include <string>
+#include <unordered_map>
 
 using namespace std;
 
@@ -20,7 +21,7 @@ int main() {
     int forBoxList;
     int forParameterList;
     vector<Boxes> AllBoxes;
-
+    unordered_map<string, int> boxList;
 
     while (ForCycle == 0) {
         cout << "----------------------" << endl;
@@ -41,7 +42,7 @@ int main() {
         }
         else if (forChecking == 1) {
             if (AllBoxes.size() == 10) {
-                cout << "Д!" << endl;
+                cout << "Maximum Limit!" << endl;
                 continue;
             }
             else {

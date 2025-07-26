@@ -21,5 +21,11 @@
     <ClCompile Include="OtherTry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="StarTask.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="add_id_for_box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
